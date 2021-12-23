@@ -1,0 +1,201 @@
+//
+// Code highlighting colors
+//
+
+$code-blue: #6eafe9;  // blue, used for: ?
+$code-blue-light: #a5d6ff;  // blue, used for: string, ...
+$code-blue-dark: #cba8ff;
+$code-teal: #79c0ff;  // blue, used for: literals, operators, ...
+$code-green: #ff7b6f;  // red, used for: import, def, ...
+$code-gray: #c9d1d2;  // ~white, used as default
+$code-red: #dc322f;
+$code-red-light: #ffa657;
+
+$code-other: $code-red-light;
+$code-punctuation: $code-gray;
+$code-comment: $code-blue;
+$code-comment-multiline: $code-blue;
+$code-comment-preproc: $code-green;
+$code-comment-single: $code-blue;
+$code-comment-special: $code-green;
+$code-generic: $code-blue-light;
+$code-generic-deleted: $code-blue-dark;
+$code-generic-emph: $code-red-light;
+$code-generic-error: $code-red;
+$code-generic-heading: $code-red-light;
+$code-generic-inserted: $code-green;
+$code-generic-output: $code-gray;
+$code-generic-prompt: $code-gray;
+$code-generic-strong: $code-gray;
+$code-generic-subheading: $code-red-light;
+$code-generic-traceback: $code-gray;
+
+$code-keyword: $code-green;
+$code-keyword-constant: $code-red-light;
+$code-keyword-declaration: $code-teal;
+$code-keyword-namespace: $code-green;
+$code-keyword-pseudo: $code-green;
+$code-keyword-reserved: $code-teal;
+$code-keyword-type: $code-red;
+
+$code-name-builtin: $code-gray;
+$code-name-attribute: $code-gray;
+$code-name-label: $code-gray;
+$code-name-other: $code-red-light;
+
+$code-operator: $code-teal;
+$code-operator-word: $code-teal;
+$code-literal-number: $code-teal;
+$code-literal-number-float: $code-teal;
+$code-literal-number-hex: $code-teal;
+$code-literal-number-integer: $code-teal;
+$code-literal-number-oct: $code-teal;
+
+$code-literal-string: $code-blue-light;
+$code-literal-string-backtick: $code-blue-light;
+$code-literal-string-char: $code-blue-light;
+$code-literal-string-doc: $code-blue-light;
+$code-literal-string-double: $code-blue-light;
+$code-literal-string-escape: $code-blue-light;
+$code-literal-string-heredoc: $code-blue-light;
+$code-literal-string-interpol: $code-blue-light;
+$code-literal-string-other: $code-blue-light;
+$code-literal-string-regex: $code-blue-light;
+$code-literal-string-single: $code-blue-light;
+$code-literal-string-symbol: $code-blue-light;
+
+$code-error: $code-blue-light;
+
+$code-name: $code-gray;  // $code-red-light;
+$code-name-class: $code-red-light;
+$code-name-constant: $code-red-light;
+$code-name-decorator: $code-blue-dark;
+$code-name-entity: $code-red-light;
+$code-name-exception: $code-red-light;
+$code-name-function: $code-blue-dark;
+$code-name-namespace: $code-gray;
+$code-name-property: $code-gray;
+$code-name-tag: $code-blue-dark;
+$code-name-variable: $code-blue-dark;
+$code-name-builtin-pseudo: $code-blue;  // $code-gray;
+$code-name-variable-class: $code-gray;
+$code-name-variable-global: $code-gray;
+$code-name-variable-instance: $code-gray;
+
+$code-text-whitespace: $code-blue-light;
+$code-other: $code-red-light;
+
+//
+// Other colors
+//
+
+$added_lines_color: #28a745;
+$annotations_color: #fafbfc;
+$caret_color: #c8e1ff;
+$caret_row_color: #2b3036;
+$console_background_key: #24292e;
+$deleted_lines_color: #ea4a5a;
+$diagram_annotation_edge: #b392f0;
+$diagram_default_edge: #e1e4e8;
+$diagram_generalization_edge: #ffab70;
+$diagram_inner_edge: #79b8ff;
+$diagram_node_background: #24292e;
+$diagram_node_header: #444d56;
+$diagram_note_background: #24292e;
+$diagram_note_border: #e1e4e8;
+$diagram_realization_edge: #f97583;
+$diff_separators_background: #2f363d;
+$documentation_color: #24292e;
+$doc_comment_guide: #959da5;
+$doc_comment_link: #79b8ff;
+$filestatus_added: #85e89d;
+$filestatus_deleted: #959da5;
+$filestatus_hijacked: #959da5;
+$filestatus_idea_filestatus_deleted_from_file_system: #959da5;
+$filestatus_idea_filestatus_ignored: #dbedff;
+$filestatus_idea_filestatus_merged_with_both_conflicts: #f97583;
+$filestatus_idea_filestatus_merged_with_conflicts: #f97583;
+$filestatus_idea_filestatus_merged_with_property_conflicts: #f97583;
+$filestatus_ignore_project_view_ignored: #dbedff;
+$filestatus_merged: #b392f0;
+$filestatus_modified: #79b8ff;
+$filestatus_not_changed_immediate: #79b8ff;
+$filestatus_not_changed_recursive: #79b8ff;
+$filestatus_obsolete: #959da5;
+$filestatus_switched: #ffab70;
+$filestatus_unknown: #ffab70;
+$filestatus_addedoutside: #85e89d;
+$filestatus_changelistconflict: #f97583;
+$filestatus_modifiedoutside: #b392f0;
+$folded_text_border_color: #282e33;
+$gutter_background: #23292f;
+$indent_guide: #2f363d;
+$information_hint: #24292e;
+$inline_refactoring_settings_default: #2f363d;
+$inline_refactoring_settings_focused: #444d56;
+$inline_refactoring_settings_hovered: #444d56;
+$line_numbers_color: #444d56;
+$line_number_on_caret_row_color: #e1e4e8;
+$method_separators_color: #586069;
+$modified_lines_color: #2188ff;
+$modified_tab_icon: #f9826c;
+$notification_background: #32f620;
+$promotion_pane: #24292e;
+$question_hint: #5264c0;
+$readonly_fragment_background: #2f363d;
+$recent_locations_selection: #24292e;
+$right_margin_color: #2f363d;
+$selected_indent_guide: #444d56;
+$selected_tearline_color: #22374b;
+$selection_background: #22374b;
+$selection_foreground: #ffffff;
+$separator_above_color: #444d56;
+$separator_below_color: #444d56;
+$soft_wrap_sign_color: #444d56;
+$scrollbar_mac_transparent_hoverthumbcolor: #f9826cc0;
+$scrollbar_mac_transparent_hovertrackcolor: #23292f;
+$scrollbar_mac_transparent_thumbcolor: #f9826c80;
+$scrollbar_mac_transparent_trackcolor: #23292f;
+$scrollbar_mac_hoverthumbcolor: #f9826c;
+$scrollbar_mac_hovertrackcolor: #23292f;
+$scrollbar_mac_thumbcolor: #f9826cc0;
+$scrollbar_mac_trackcolor: #23292f;
+$scrollbar_transparent_hoverthumbcolor: #f9826c80;
+$scrollbar_transparent_hovertrackcolor: #23292f;
+$scrollbar_transparent_thumbcolor: #f9826cc0;
+$scrollbar_transparent_trackcolor: #23292f;
+$scrollbar_hoverthumbcolor: #f9826c;
+$scrollbar_hovertrackcolor: #23292f;
+$scrollbar_thumbcolor: #f9826cc0;
+$scrollbar_trackcolor: #23292f;
+$tab_underline: #f9826c;
+$tab_underline_inactive: #f9826c80;
+$tearline_color: #2f363d;
+$tooltip: #24292e;
+$vcs_annotations_color_1: #5264c0;
+$vcs_annotations_color_2: #144620;
+$vcs_annotations_color_3: #735c0f;
+$vcs_annotations_color_4: #29134e;
+$vcs_annotations_color_5: #6d224f;
+$visual_indent_guide: #2f363d;
+$whitespaces: #444d56;
+$whitespaces_modified_lines_color: #444d56;
+
+$body-background-color: #0d1117;
+$sidebar-color: #161b22;
+$border-color: #30363d;
+
+$search-color: #c9d1d9;
+$body-text-color: #c9d1d9;
+$body-heading-color: #58a6ff;
+$nav-child-link-color: #f78166;
+$search-result-preview-color: #c9d1d9;
+
+$link-color: #58a6ff;
+$btn-primary-color: #21262d;
+$base-button-color: #21262d;
+
+$code-background-color: #161b22;
+$search-background-color: #161b22;
+$table-background-color: #161b22;
+$feedback-color: darken($sidebar-color, 3%);
